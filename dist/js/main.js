@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // init navbar dropdown menu
     let dropdown = document.querySelector(".dropdown-trigger");
     M.Dropdown.init(dropdown, {
-        hover: false
+        hover: true
     });
+
+    // init collapsible mobile sidenav
+    let collapsibles = document.querySelectorAll(".collapsible");
+    M.Collapsible.init(collapsibles, {});
 });
