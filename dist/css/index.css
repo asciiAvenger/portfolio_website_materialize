@@ -50,6 +50,11 @@
     text-decoration: none;
     color: black;
     margin: 0 10px;
+    transition: color 100ms;
+}
+
+.social-media a:hover {
+    color: teal;
 }
 
 @media (min-width: 600px) {
