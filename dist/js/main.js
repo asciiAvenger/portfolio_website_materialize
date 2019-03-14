@@ -15,4 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // init collapsible mobile sidenav
     let collapsibles = document.querySelectorAll(".collapsible");
     M.Collapsible.init(collapsibles, {});
+
+    // init scrollspy
+    let scrollspyElements = document.querySelectorAll(".scrollspy");
+    M.ScrollSpy.init(scrollspyElements, {});
 });

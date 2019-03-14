@@ -2,15 +2,19 @@
 
 #welcome {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background: url(../img/code.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
+.parallax-container {
+    height: 100%;
+}
+
 .profile {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -24,27 +28,29 @@
 
 .hey {
     font-family: cursive;
+    font-size: 18px;
 }
 
 .name {
     width: 100%;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 5px;
 }
 
 .occupation {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .message {
     margin-top: 10px;
     font-family: cursive;
+    font-size: 16px;
 }
 
 .social-media {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .social-media a {
