@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Philipps Portfolio - Startseite</title>
+
+    <!-- stylesheets -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+        <ul id="main-page-dropdown" class="dropdown-content">
+            <li><a href="#welcome">Start</a></li>
+            <li><a href="#about-me">Über Mich</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projekte</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+
+        <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="/" class="brand-logo left">[PA]</a>
+                        <a href="#" data-target="mobile-navbar" class="sidenav-trigger right"><i
+                                class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a class="dropdown-trigger" href="#!" data-target="main-page-dropdown">Startseite<i
+                                        class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="privacy-policy.html">Datenschutzerklärung</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav collapsible" id="mobile-navbar">
+            <li class="active">
+                <div class="collapsible-header">Startseite</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="#welcome">Start</a></li>
+                        <li><a href="#about-me">Über Mich</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projekte</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Andere Seiten</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="privacy-policy.html">Datenschutzerklärung</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page Content -->
+
+    <main>
+
+        <!-- welcome section -->
+
+        <section id="welcome" class="scrollspy">
+            <div class="profile">
+                <div class="hey">
+                    Hey, ich bin
+                </div>
+                <div class="name">
+                    Philipp Alber
+                </div>
+                <div class="occupation">
+                    Student, Web-Entwickler
+                </div>
+                <div class="message">
+                    Danke, dass Du meine Seite besuchst!
+                </div>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.instagram.com/phil.ig/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/asciiAvenger">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/user/loWKillHD/">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about me section -->
+
+        <section id="about-me" class="teal darken-1 section scrollspy">
+            <div class="container">
+                <h3 class="center white-text">Über Mich</h3>
+                <p class="flow-text white-text">
+                    Mein Name ist Philipp Alber und ich bin Student der
+                    Wirtschaftsinformatik an der
+                    DHBW-Stuttgart im vierten Semester.
+                </p>
+            </div>
+        </section>
+
+        <!-- skills section -->
+
+        <section class="section scrollspy" id="skills">
+            <div class="container">
+                <h3 class="center">Skills</h3>
+                <div class="row">
+                    <div class="col s12 m6 xl4">
+                        <h4 class="center">Front-End</h4>
+                        <ul class="collection">
+                            <li class="collection-item">HTML, CSS und JS</li>
+                            <li class="collection-item">Sass</li>
+                            <li class="collection-item">Frameworks/Libraries:</li>
+                            <li class="collection-item">
+                                <ul>
+                                    <li class="collection-item">React.js (am lernen)</li>
+                                    <li class="collection-item">Bootstrap</li>
+                                    <li class="collection-item">Materialize</li>
+                                    <li class="collection-item">p5.js</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col s12 m6 xl4">
+                        <h4 class="center">Back-End</h4>
+                        <ul class="collection">
+                            <li class="collection-item">PHP:</li>
+                            <li class="collection-item">
+                                <ul>
+                                    <li class="collection-item">Laravel (am lernen)</li>
+                                    <li class="collection-item">Code-Igniter</li>
+                                </ul>
+                            </li class="collection-item">
+                            <li class="collection-item">Python:</li>
+                            <li class="collection-item">
+                                <ul>
+                                    <li class="collection-item">Flask</li>
+                                </ul>
+                            </li class="collection-item">
+                            <li class="collection-item">Datenbanken:</li>
+                            <li class="collection-item">
+                                <ul>
+                                    <li class="collection-item">SQL und NoSQL Standard</li>
+                                    <li class="collection-item">MySQL</li>
+                                    <li class="collection-item">MariaDB</li>
+                                    <li class="collection-item">MongoDB (am lernen)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col s12 m6 offset-m3 xl4">
+                        <h4 class="center">Sonstiges</h4>
+                        <ul class="collection">
+                            <li class="collection-item">Cobol</li>
+                            <li class="collection-item">Java</li>
+                            <li class="collection-item">Processing</li>
+                            <li class="collection-item">Machine Learning (am lernen)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- my projects section -->
+
+        <section id="projects" class="section teal darken-1 scrollspy">
+            <div class="container">
+                <h3 class="center white-text">Meine Projekte</h3>
+                <div class="row">
+                    <div class="col s12 m6 xl4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mountain-dog.jpg" alt="My original portfolio website">
+                                <span class="card-title">Alte Portfolio-Webseite</span>
+                            </div>
+                            <div class="card-content">
+                                Der Source-Code zu meiner alten Portfolio-Webseite auf GitHub.
+                            </div>
+                            <div class="card-action">
+                                <a target="_blank" href="https://github.com/asciiAvenger/portfolio_website">Hier gehts
+                                    zum Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 xl4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/code.jpg" alt="My new portfolio website">
+                                <span class="card-title">Neue Portfolio-Webseite</span>
+                            </div>
+                            <div class="card-content">
+                                Das GitHub-Repository für den Code von der Webseite, auf der Du dich gerade
+                                befindest.
+                            </div>
+                            <div class="card-action">
+                                <a target="_blank"
+                                    href="https://github.com/asciiAvenger/portfolio_website_materialize">Hier gehts zum
+                                    Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact section -->
+
+        <section class="section scrollspy" id="contact">
+            <div class="container">
+                <h3 class="center">Kontakt</h3>
+                <form action="post" name="contact" data-netlify="true">
+                    <div class="row">
+                        <div class="col s12 m10 offset-m1">
+                            <div class="input-field">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input type="text" id="contact-name">
+                                <label for="contact-name">Dein Name</label>
+                            </div>
+
+                            <div class="input-field">
+                                <i class="material-icons prefix">email</i>
+                                <input type="email" id="contact-email" class="validate">
+                                <label for="contact-email">Deine Mail-Adresse</label>
+                            </div>
+
+                            <div class="input-field">
+                                <i class="material-icons prefix">chat</i>
+                                <textarea name="content" id="contact-content" cols="30" rows="10"
+                                    class="materialize-textarea"></textarea>
+                                <label for="contact-content">Was Du mir sagen möchtest</label>
+                            </div>
+
+                            <div class="input-field center">
+                                <button class="btn" type="submit">
+                                    Abschicken
+                                    <i class="material-icons left">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="center">
+                    <i class="fas fa-envelope"></i>
+                    Oder sende mir eine Mail an
+                    <a class="teal-text" href="mailto:philipp_j.alber@yahoo.com">philipp_j.alber@yahoo.com</a>.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="page-footer teal darken-2" style="padding-bottom: 20px;">
+        <div class="container">
+            <p>
+                <a class="white-text" href="privacy-policy.html">Datenschutzerklärung</a>
+            </p>
+            <p>
+                <a class="white-text" href="impressum.html">Impressum</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
