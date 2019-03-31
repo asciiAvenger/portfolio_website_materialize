@@ -6,7 +6,7 @@
     background: url(../img/code.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .parallax-container {
